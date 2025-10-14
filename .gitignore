@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+
+# Don't ignore PDF files in LaTeX directories
+!**/*.pdf
+
+# Don't ignore .tex files
+!**/*.tex
