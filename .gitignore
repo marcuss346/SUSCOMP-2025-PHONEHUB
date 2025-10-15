@@ -12,3 +12,6 @@
 
 # Don't ignore bibliography files
 !**/*.bib
+
+# Don't ignore text files
+!**/*.txt
