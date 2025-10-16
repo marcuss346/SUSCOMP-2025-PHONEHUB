@@ -3,11 +3,13 @@ Related Work:
 Some good data on carbon footprint in general can be found in the books The carbon footprint of everything and Sustainable Energy – without the hot air. 
 These books include calculated carbon footprint of various thing we use in everyday life, from a sent E-mail to driving to school with a car. 
 We believe some useful data can be found on company websites due to all companys trying to greenwash their brands. 
-The EU commition has also done some research on carbon footprint. 
-Maybe checkout the Right to repair act?
+The EU commition has also done some research on carbon footprint when preparing the "Right to Repair" policy.
+When imposing the "Energy label" the European commition has also done a lot of reasearch in the phone technology; should be promising to cheack out.
 
 Methodology:
 Determining phone price ranges and selecting the most representing phone models for further research. 
+Determihinghow many years of software support the company ensures for a device from a certain price range.
+Comparing the battery life of phones frkm diferent price ranges; How many life cycles do we get? How much is the repair?
 Explaining the 'energy stickers' and what they mean for a cell phone. 
 Collection and comparing any publicly available data on carbon footprint. 
 Calculating/Estimating carbon footprint for some parts of a phones lifecycle. 
@@ -21,9 +23,14 @@ Brand selection:
     - has enough public information on what the company claims it is doing
     - for example: Samsung Electronics, Apple, ...
 
-Define price ranges:
+Define representitive devices for comparison:
     - defining precise price ranges that include enough product for comparison
     - for example: budget, mid range and flagship
+    - find years of software support
+    - find years of battery use before declining
+    - find the repairability of the battery, what is the cost?
+    - determine if a device should be repaired (availability of spare parts, price) or abandoned and bought new
+    - should you buy used phones? Is the price really lower?
 
 Lifecycle mapping: 
     - determine the basic parts of a device's Lifecycle
@@ -34,19 +41,26 @@ Data collection:
     - obtaining data on the carbon footprint of manufacturing such a device (maybe giving special attention on the chip, battery, phone screen?)
     - obtaining data from EU websites on carbon footprint
     - obtaining data from research (papers, articles, books, ...)
-    - what do the stickers on device energy class mean?
+    - what do the Energy labels mean?
+    - explain what are number of charging cycles, years of software support - company websites
 
 Carbon footprint estimation:
     - from collected data try to provide an estimation for each price range the carbon footprint of the device
     - try to provide an estimation on carbon footprint depending on the chosen device from a price range comparing to how many years of use the user gets out of it
 
 Recomendations: 
-    - propose stratigies for the user on how to pich a device that provides the most use for the least amount of carbon footprint
+    - propose stratigies for the user on how to pick a device that provides the most use for the least amount of carbon footprint
 
 Evaluation plan:
-The evaluation will consider how the project aligns with the SDGs (UN Sustainable Development Goals), particulary SDG --, SDG -- and SDG --.
+The evaluation will consider how the project aligns with the SDGs (UN Sustainable Development Goals), particulary SDG 12, SDG 13 and SDG 8.
 The project's success will be evaluated based on the reliability and availability of data sources and the quality of the carbon footprint analysis.
 A sadisfactory procejt should include explicid recomendations for the end user on how to choose a phone based on the price and environmental impact.
+
+SDGs:
+8: Decent work and economic growth (mining of rare minerals)
+12: Responsible consumption and production (buy less, use longer, repair, buy used)
+13: Climate action (less production, less shipping, smaller carbon footprint, reuse what is already built and here)
+
 
 Resources:
 Key resources include :
@@ -58,6 +72,7 @@ Key resources include :
     - whatever this is: https://commission.europa.eu/energy-climate-change-environment_en
     - ipcc (https://www.ipcc.ch)
     - for calculating: ILCD International Life Cycle Data system
+    - UN SDGs (https://sdgs.un.org/goals)
 
 
 bib file from the resources (not yet validated):
@@ -119,3 +134,13 @@ bib file from the resources (not yet validated):
   howpublished = {\url{https://eplca.jrc.ec.europa.eu/ILCDSystem.html}},
   note      = {Accessed: 2025-10-15}
 }
+
+@online{UN_SDGS,
+  author       = {{United Nations}},
+  title        = {The 17 Goals | Sustainable Development},
+  year         = {n.d.},
+  url          = {https://sdgs.un.org/goals},
+  urldate      = {2025-10-16},
+  note         = {Accessed: 2025-10-16}
+}
+
