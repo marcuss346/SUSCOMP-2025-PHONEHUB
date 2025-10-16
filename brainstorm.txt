@@ -144,3 +144,20 @@ bib file from the resources (not yet validated):
   note         = {Accessed: 2025-10-16}
 }
 
+@online{samsung_climate_action,
+  author    = {{Samsung Electronics Co., Ltd.}},
+  title     = {Samsung Climate Action – Sustainability and Planet Initiatives},
+  year      = {2025},
+  url       = {https://www.samsung.com/global/sustainability/planet/climate-action},
+  note      = {Accessed: 2025-10-15}
+}
+
+@online{apple_environment,
+  author    = {{Apple Inc.}},
+  title     = {Apple Environmental Progress and Sustainability Efforts},
+  year      = {2025},
+  url       = {https://www.apple.com/environment},
+  note      = {Accessed: 2025-10-15}
+}
+
+
