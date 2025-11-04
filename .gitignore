@@ -15,3 +15,10 @@
 
 # Don't ignore text files
 !**/*.txt
+
+# Don't ignore survey analysis notebooks
+!**/survey_analisys.ipynb
+
+# Don't ignore survey data files
+!**/survey.csv
+
