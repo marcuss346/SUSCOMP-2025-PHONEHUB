@@ -22,3 +22,6 @@
 # Don't ignore survey data files
 !**/survey.csv
 
+# Don't ignore pptx
+!**/*.pptx
+
