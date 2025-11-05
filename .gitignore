@@ -20,7 +20,8 @@
 !**/survey_analisys.ipynb
 
 # Don't ignore survey data files
-!**/survey.csv
+!**/survey_answers_04-11.csv
+!**/survey_answers_118.csv
 
 # Don't ignore pptx
 !**/*.pptx
