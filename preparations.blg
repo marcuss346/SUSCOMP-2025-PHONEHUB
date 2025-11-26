@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: preparations.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--entry type for "apple_environment" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "eu_energylabel" isn't style-file defined
+--line 26 of file references.bib
+Warning--entry type for "europeancommission_righttorepair" isn't style-file defined
+--line 34 of file references.bib
+Warning--entry type for "ipcc" isn't style-file defined
+--line 50 of file references.bib
+Warning--entry type for "samsung_climate_action" isn't style-file defined
+--line 68 of file references.bib
+Warning--entry type for "UN_SDGS" isn't style-file defined
+--line 76 of file references.bib
+Warning--I didn't find a database entry for "test2025"
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            537 strings with 4913 characters,
+and the built_in function-call counts, 1915 in all, are:
+= -- 176
+> -- 63
+< -- 0
++ -- 29
+- -- 18
+* -- 62
+:= -- 328
+add.period$ -- 28
+call.type$ -- 9
+change.case$ -- 34
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 73
+empty$ -- 199
+format.name$ -- 18
+if$ -- 413
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 4
+newline$ -- 49
+num.names$ -- 18
+pop$ -- 76
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 60
+stack$ -- 0
+substring$ -- 47
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 0
+while$ -- 18
+width$ -- 10
+write$ -- 96
+(There were 7 warnings)
