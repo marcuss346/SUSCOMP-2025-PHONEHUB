@@ -1,60 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: preparations.aux
-The style file: plain.bst
-Database file #1: references.bib
-Warning--entry type for "apple_environment" isn't style-file defined
---line 1 of file references.bib
-Warning--entry type for "eu_energylabel" isn't style-file defined
---line 26 of file references.bib
-Warning--entry type for "europeancommission_righttorepair" isn't style-file defined
---line 34 of file references.bib
-Warning--entry type for "ipcc" isn't style-file defined
---line 50 of file references.bib
-Warning--entry type for "samsung_climate_action" isn't style-file defined
---line 68 of file references.bib
-Warning--entry type for "UN_SDGS" isn't style-file defined
---line 76 of file references.bib
-Warning--I didn't find a database entry for "test2025"
-You've used 9 entries,
-            2118 wiz_defined-function locations,
-            537 strings with 4913 characters,
-and the built_in function-call counts, 1915 in all, are:
-= -- 176
-> -- 63
-< -- 0
-+ -- 29
-- -- 18
-* -- 62
-:= -- 328
-add.period$ -- 28
-call.type$ -- 9
-change.case$ -- 34
-chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 73
-empty$ -- 199
-format.name$ -- 18
-if$ -- 413
-int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 4
-newline$ -- 49
-num.names$ -- 18
-pop$ -- 76
-preamble$ -- 1
-purify$ -- 27
-quote$ -- 0
-skip$ -- 60
-stack$ -- 0
-substring$ -- 47
-swap$ -- 9
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 32
-warning$ -- 0
-while$ -- 18
-width$ -- 10
-write$ -- 96
-(There were 7 warnings)
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'preparations.blg'
+[58] biber:340> INFO - === Wed Nov 26, 2025, 12:37:19
+[74] Biber.pm:419> INFO - Reading 'preparations.bcf'
+[111] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[119] Biber.pm:4419> INFO - Processing section 0
+[132] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[133] bibtex.pm:1713> INFO - LaTeX decoding ...
+[139] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[178] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[179] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[179] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[194] bbl.pm:660> INFO - Writing 'preparations.bbl' with encoding 'UTF-8'
+[196] bbl.pm:763> INFO - Output to preparations.bbl

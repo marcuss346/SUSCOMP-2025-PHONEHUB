@@ -1,99 +1,70 @@
 \documentclass[12pt]{extarticle}
 \usepackage[utf8]{inputenc}
-\usepackage{cite}
+% \usepackage{cite}
 \usepackage[a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
 \usepackage{array}
 \usepackage{comment}
-\pagenumbering{arabic} % Use Arabic numerals for page numbers
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{references.bib}
 
-\title{Impact of a Phone's Price Range on Its Lifespan and Carbon Footprint}
-\author{Mark Ilovar, Nina Bobnič \\
-Mentor: Aneta Kartali \\
-Subject: Sustainable Computing \\
-Faculty of Computer and Information Science \\ University of Ljubljana \\}
+\nocite{*}  % include all entries
+\pagenumbering{arabic}
+
+\title{Smartphone Lifecycles and E-Waste Awareness among Students}
+\author{ \\ Mentor: Aneta Kartali \\ Subject: Sustainable Computing \\ Faculty of Computer and Information Science \\ University of Ljubljana}
 \date{October 2025}
 
 \begin{document}
 
 \maketitle
 
-\noindent This project will mostly focus on the impact of a phone's proce range on its lifespan and carbon footprint. The project will try to provide useful information on how to become a more environmentally conscious consumer when buying a new phone. A big part of all the environmental movement towards a better future are EU and the UN that are pushing for more sustainable practices in product development and production.
+\noindent This project investigates how university students manage smartphones throughout their lifecycle and how these decisions relate to environmental awareness and e-waste production. The aim is to identify student patterns in device replacement, reuse, repair, recycling and disposal, while also exploring the motivations, barriers and knowledge that shape sustainable or unsustainable behaviour. Results of the study will contribute to a better understanding of e-waste generation among young consumers and support the development of initiatives that promote responsible smartphone use, repair and recycling.
 
 \section{Related Work}
-Some good data on carbon footprint of phones can be found in books such as \textit{The carbon footprint of everything} \cite{bernerslee2010} and \textit{Sustainable Energy - without the hot air} \cite{mackay2009}. These books include calculated carbon footprints of various devices, including phones, and provide a good starting point for understanding the environmental impact of these devices. We believe some useful data and information can be found on company websites such as Apple  \cite{apple_environment} and Samsung Electronics \cite{samsung_climate_action} as these global companys are trying to follow the sustainability trend. None of these efforts would be made without the EU and European Commission pushing for more Sustainable practices in product development and production. Some important research by the European Commission includes research on the impacts of the \textit{Right to Repair} policy \cite{europeancommission_righttorepair} and enforcing the new \textit{Energy Label} \cite{eu_energylabel}.
+Existing research highlights rising e-waste levels and the need for effective smartphone return and recycling systems. Studies show that convenience, awareness, and environmental attitudes significantly influence user participation, especially among young people. Work on small device take-back programs indicates that many consumers store unused phones instead of recycling them, mainly due to low knowledge and limited access to collection points. Research further shows that educational campaigns, incentives, and well-designed return schemes can increase recycling rates. This project builds on these findings by examining student behavior and identifying targeted strategies to improve sustainable smartphone lifecycles.
 
 \section{Methodology}
-The methodology of this project will include determining phone price ranges and selecting the most representative phone model for each price range. For this part we will use data from company websites such as Apple, Samsung and similar companies. Data will then be gathered on the lifespan of each device (including years of software support, battery health and repairability). \\
+The project uses a quantitative, survey-based approach to collect both behavioural and attitudinal data. The target population are undergraduate and postgraduate students across different faculties, with emphasis on FRI and FMF participants. An online questionnaire (Google Forms) will be distributed via student networks and university channels with an expected sample size of 200–300 respondents.
 
-\noindent Additionally, data on carbon footprint of each device will be collected and compared between price ranges. For this part we will use data from books such as \textit{The carbon footprint of everything} \cite{bernerslee2010} and \textit{Sustainable Energy - without the hot air} \cite{mackay2009}, as well as data from the ILCD International Life Cycle Data system \cite{ilcd_system} and IPCC reports \cite{ipcc}. \\
-
-\noindent The project will also include lifecycle mapping of the selected phone models and some estimations of carbon footprint at each stage. Useful data for this part of the project can be found in the ILCD INternational Lufe Cycle Data system \cite{ilcd_system}. Additionally, the explanation of the \textit{Energy Labels} \cite{eu_energylabel} will be provided and some comparisons of company promises versus real world data will be made. These promises can be found on environmental parts of company websites such as Apple \cite{apple_environment} and Samsung \cite{samsung_climate_action}. \\
+\noindent Data analysis will include descriptive statistics (frequencies, means, percentages), exploration of correlations between awareness levels, disposal methods and replacement motives, and construction of composite measures such as an \textit{E-Waste Behaviour Score} and an \textit{Awareness Index}. Qualitative insights from open-ended responses will be thematically analysed to assess how well students understand e-waste and sustainability issues.
 
 \section{Milestones}
-The proposed timeline for the project is as follows:
 \begin{itemize}
     \item \textbf{17.10.2025} -- Submission of project proposal
-    
-    \item \textbf{05.11.2025} -- Completion of literature review and lifecycle framework
-    
-    \item \textbf{26.11.2025} -- Data collection, preliminary comparisons and carbon footprint estimations
-    
-    \item \textbf{19.12.2025} -- Draft of price range comparison and carbon footprint analysis
-    
-    \item \textbf{12.01.2026} -- Submission of final project report
+    \item \textbf{05.11.2025} -- Literature review and initial survey development
+    \item \textbf{26.11.2025} -- Execution of preliminary survey and behavioural assessment
+    \item \textbf{19.12.2025} -- Main survey questionnaire and compilation of e-waste resources in Slovenia
+    \item \textbf{12.01.2026} -- Final project report and recommendations
 \end{itemize}
-
-Some main tasks in developing this project are shown in the table bellow:
 
 \begin{table}[h!]
 \centering
 \begin{tabular}{| m{3cm} | m{11cm}| m{1.5cm}|}
     \hline
-    \textbf{Task} & \textbf{Content} & \textbf{Person}\\
+    \textbf{Task} & \textbf{Description} & \textbf{Person} \\
     \hline
-    Brand selection & Select a smartphone brand to analyze. & Mark\\
+    Preliminary Survey Design & Create initial survey assessing replacement habits, disposal practices and awareness. & Nina \\
     \hline
-    Price range definition & Define price ranges for analysis (e.g., budget, mid-range, flagship). & Mark\\
+    Survey Distribution & Share online questionnaire among university students. & Nina \\
     \hline
-    Model selection & Choose representative models from each price range. & Mark\\
+    Preliminary Survey Analysis & Analyse attitudes, recycling behaviour and replacement motivation trends. & Nina\\
     \hline
-    Data collection & Gather data on lifespan, software support and repairability. & Nina\\
+    Development of Main Survey & Expand question set based on early findings; include behavioural scaling items. & Nina \\
     \hline
-    Lifecycle mappinig & Map out the lifecycle stages of each selected model (extraction, manufacturing, shipping, use, disposal). & Mark\\
+    E-Waste Resource Mapping (Slovenia) & Compile repair shops, exchange programs and recycling centres for smartphones. & Mark\\
     \hline
-    Carbon footprint estimation & Estimate the carbon footprint for each lifecycle stage of the selected models. & Nina\\
+    Awareness Materials & Prepare recommendations, guidelines and suggestions for student campaigns. & Mark \\
     \hline
-    Data analysis & Analyze the collected data to identify trends and correlations between price range, lifespan, and carbon footprint. & Nina\\
-    \hline
-    Recomendations & Provide recommendations for consumers based on the findings. & Mark, Nina\\
-    \hline
-    Report writing & Compile the findings into a comprehensive report. & Mark, Nina\\
+    Final Report Writing & Summarise results, behavioural correlations and recommendations. & Nina and Mark \\
     \hline
 \end{tabular}
-\caption{Table of the main tasks of the project with their content.}
+\caption{Main project tasks with descriptions.}
 \label{main_tasks}
 \end{table}
 
-\section{Evaluation Plan}
-The evaluation will consider how the procejt aligns with the UN Sustainable Development Goals (SDGs) \cite{UN_SDGS}, particulary goals 8 (Decent work and economic growth), 12 (Responsible consumption and production) and 13 (Climate action). The project'ssuccess will be evaluated based on the reliability and availability of data sources and the quality of the carbon footprint analysis. A sadisfactory project should include explicid recomendations fot the end user on how to choose a phone based on its price range, lifespan and environmental impact based on carbon footprint of the device.
+\section{Expected Outcomes and Evaluation Plan}
+The study will deliver a quantitative overview of sustainable vs.\ unsustainable smartphone disposal behaviour, including barriers to recycling and reuse. Awareness levels will be evaluated through descriptive metrics and composite indicators such as an E-Waste Behaviour Score and Awareness Index. The final report will include recommendations for student-focused initiatives such as repair workshops, recycling points and circular economy awareness activities. Project success will be evaluated based on clarity of survey data, sample size achieved and usefulness of proposed sustainability measures.
 
-\begin{comment}
-\section{Resoureces}
-Key resources for the project include:
-\begin{itemize}
-    \item company websites (Apple \cite{apple_environment}, Samsung \cite{samsung_climate_action})
-    \item books (The carbon footprint of everything \cite{bernerslee2010}, Sustainable Energy - without the hot air \cite{mackay2009})
-    \item European Commission's "Right to Repair" policy reports \cite{europeancommission_righttorepair}
-    \item EU's data on the Energy label \cite{eu_energylabel}
-    \item UN Sustainable Development Goals (SDGs) documentation \cite{UN_SDGS}
-    \item IPCC reports and data on carbon footprint \cite{ipcc}
-    \item ILCD International Life Cycle Data system \cite{ilcd_system}
-    \item Academic databases
-    \item Tools for data analysis
-\end{itemize}
-\end{comment}
-
-\bibliographystyle{plain}
-\bibliography{references} 
+\printbibliography
 
 \end{document}

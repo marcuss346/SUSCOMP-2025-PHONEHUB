@@ -1,28 +1,7 @@
-# Ignore everything
-
-
-# But not these files...
-!.gitignore
-
-# Don't ignore PDF files in LaTeX directories
-!**/*.pdf
-
-# Don't ignore .tex files
-!**/*.tex
-
-# Don't ignore bibliography files
-!**/*.bib
-
-# Don't ignore text files
-!**/*.txt
-
-# Don't ignore survey analysis notebooks
-!**/survey_analisys.ipynb
-
-# Don't ignore survey data files
-!**/survey_answers_04-11.csv
-!**/survey_answers_118.csv
-
-# Don't ignore pptx
-!**/*.pptx
-
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
