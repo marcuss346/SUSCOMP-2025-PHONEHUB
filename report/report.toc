@@ -8,4 +8,4 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Discussion}{2}{subsubsection.2.2.2}%
 \contentsline {section}{\numberline {3}Alternative Solutions}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Why people don't use buyback programs?}{2}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Recycling}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Recycling}{3}{subsection.3.2}%
