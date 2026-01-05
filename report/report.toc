@@ -1,11 +1,12 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {section}{\numberline {2}Survey}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Survey Structure}{2}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Methodology}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Data Collection}{2}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Questions}{2}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Results}{2}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Analysis}{2}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Discussion}{2}{subsubsection.2.2.2}%
-\contentsline {section}{\numberline {3}Alternative Solutions}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Why people don't use buyback programs?}{2}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Demographics}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Analysis}{3}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Discussion}{3}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Alternative Solutions}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Why people don't use buyback programs?}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Recycling}{3}{subsection.3.2}%

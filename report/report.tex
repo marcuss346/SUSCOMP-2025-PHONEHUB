@@ -1,10 +1,11 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{references.bib} %Import the bibliography file
 \usepackage[a4paper,margin=2cm]{geometry}  % sets 2 cm margins
 \usepackage{graphicx}                      % for including images
 \usepackage{hyperref}                      % optional: clickable ToC
 
 \usepackage{fancyhdr} % for custom headers/footers
-\setlength{\headheight}{14.49998pt}
 
 % Page header
 \pagestyle{fancy}
@@ -19,7 +20,7 @@
     \centering
     
     % --- Top section: Faculty name + logo ---
-    \includegraphics[width=0.5\textwidth]{fri-logo.png}
+    \includegraphics[width=0.5\textwidth]{UL_FRI-logoENG-VER-RGB_color.png}
     
     \vspace{3cm}
     
@@ -49,23 +50,29 @@ This project investigates how university students manage smartphones throughout 
 
 \section{Survey}
 
+For this project, a survey titled \textit{Survey on the life cycle of smartphones and awareness of e-waste among students} was conducted. It was distributed among students of the Faculty of Computer and Information Science and the Faculty of Mathematics and Physics at the University of Ljubljana via student-run Discord servers that all students at the faculties have access to.
+
 \subsection{Survey Structure}
 
-\subsubsection{Methodology}
+The survey included 13 mandatory questions (14 for some participants) and 2 optional open-ended questions intended to gather students’ opinions on two topics. Most of the mandatory questions (11 out of 14) were single-choice multiple-choice questions. The remaining three were either short-answer questions or multiple-choice questions with several possible answers. \\ 
+\\
+The survey was divided into three sections. The first focused on demographics, asking about age, gender, faculty of study, and level of study. The second section focused on students’ mobile phone purchasing and disposal practices. The final section focused on awareness of e-waste.
 
+
+\subsubsection{Data Collection}
+
+The survey was opened for admitting answers from 20. December 2025 and closed on 5. January 2026. In total 114 students from the 2 faculties submitted answers to the survey. From these 68 students were from the Faculty of Mathematics and Physics, 46 were from the Faculty of Computer and Information Science. 
 
 \subsubsection{Questions}
-The questions in the survey distributed to students with answers were as follows:
- \begin{enumerate}
-     \item Question1
-     \begin{itemize}
-         \item answer1
-         \item answer2
-     \end{itemize}
-     \item Question2
- \end{enumerate}
+
 
 \subsection{Results}
+
+\subsubsection{Demographics}
+
+Of 114 participants, 29 reported being female, 78 male, and 7 either did not want to answer or answered with Other. 95 students reported being undergraduate students, 16 graduate students, and 3 doctoral students. The graph below shows the age distribution of the participants
+
+
 
 \subsubsection{Analysis}
 
@@ -99,7 +106,6 @@ earth materials that can be recycled and reused in the production of new devices
 which can positively impact the enviorment by reducing the need for mining new materials, which can have significant environmental impacts. 
 We can also reuse other materials like glass, plastic and metal from phones that would otherwise seat in peoples drawers or end up in landfills.
 
-
-
+\printbibliography
 
 \end{document}
