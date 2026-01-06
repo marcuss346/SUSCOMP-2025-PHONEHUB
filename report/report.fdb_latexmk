@@ -1,16 +1,24 @@
 # Fdb version 4
-["biber report"] 1767699022.45447 "report.bcf" "report.bbl" "report" 1767699231.14534 0
-  "report.bcf" 1767699231.10717 108490 690775e2e4cf77fed767314722f6f964 "pdflatex"
+["biber report"] 1767699022.45447 "report.bcf" "report.bbl" "report" 1767722530.11372 0
+  "report.bcf" 1767722530.07598 108490 690775e2e4cf77fed767314722f6f964 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1767699230.5146 "/Users/markilovar/Documents/REPOS/SUSCOMP-2025-PHONEHUB/report/report.tex" "report.pdf" "report" 1767699231.14557 2
-  "/Users/markilovar/Documents/REPOS/SUSCOMP-2025-PHONEHUB/report/report.tex" 1767699229.63349 6617 7ce623ad909df94ceb698ecd493480cb ""
+["pdflatex"] 1767722529.45987 "/Users/markilovar/Documents/REPOS/SUSCOMP-2025-PHONEHUB/report/report.tex" "report.pdf" "report" 1767722530.11271 2
+  "/Users/markilovar/Documents/REPOS/SUSCOMP-2025-PHONEHUB/report/report.tex" 1767722529.07785 7551 f881af15175f1de1493130cbea2dd928 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -81,11 +89,12 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1760467072 3345743 06b78b139d7a69388006cd3d80b94c66 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "UL_FRI-logoENG-VER-RGB_color.png" 0 -1 0 ""
-  "report.aux" 1767699231.10605 1742 732fbd905806a4dbb22c4ba1559f7b74 "pdflatex"
+  "report.aux" 1767722530.07469 1908 c80e5d1537ab9fbf156f65e2b01b5fdb "pdflatex"
   "report.bbl" 1767699038.85972 466 76d65a242ec496c9b4361af646ff12cb "biber report"
-  "report.out" 1767699231.10647 1534 824c7d1f8d140e1ae16fdf5c494aeb10 "pdflatex"
-  "report.tex" 1767699229.63349 6617 7ce623ad909df94ceb698ecd493480cb ""
-  "report.toc" 1767699231.10783 975 e3a14f4cdc22dd04dae0db426207e0f3 "pdflatex"
+  "report.out" 1767722530.07524 1902 c295ca625ef1dd2260005a0b19880949 "pdflatex"
+  "report.run.xml" 1767722530.07646 2319 1dbeae9c91c70510d621aca3b4772e83 "pdflatex"
+  "report.tex" 1767722529.07785 7551 f881af15175f1de1493130cbea2dd928 ""
+  "report.toc" 1767722530.0765 1097 ed1703eeb82721d3fc588bb19c5aa6c2 "pdflatex"
   (generated)
   "report.aux"
   "report.bcf"
