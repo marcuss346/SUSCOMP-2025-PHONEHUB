@@ -7,6 +7,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Demographics}{2}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Analysis}{3}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Discussion}{3}{subsubsection.2.2.3}%
-\contentsline {section}{\numberline {3}Alternative Solutions}{3}{section.3}%
+\contentsline {section}{\numberline {3}Deeper analysys of e-waste awareness}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Why people don't use buyback programs?}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Recycling}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Why do people keep their devices at home?}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Recycling}{3}{subsection.3.3}%
