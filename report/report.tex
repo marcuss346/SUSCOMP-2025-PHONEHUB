@@ -22,6 +22,9 @@
 \makeglossaries %  Define your acronyms here 
 \newacronym{fmf}{FMF}{Faculty of Mathematics and Physics} 
 \newacronym{fri}{FRI}{Faculty of Computer and Information Science}
+\newacronym{EoL}{EoL}{End-of-life}
+\newacronym{WEEE}{WEEE}{Waste electrical and electronic equipment}
+\newacronym{EU}{EU}{European Union}
 
 
 \begin{document}
@@ -58,22 +61,26 @@
 
 % Nina
 \section{Introduction}
-This project investigates how university students manage smartphones throughout their lifecycle (from buying them to disposing of them) and how these decisions relate to environmental awareness and e-waste production. The aim is to identify student patterns in device replacement, reuse, repair, recycling and disposal, while also exploring the motivations, barriers and knowledge that shape sustainable or unsustainable behaviour. Results of the study will contribute to a better understanding of e-waste generation among young consumers and support the development of initiatives that promote responsible smartphone use, repair and recycling.
+This project investigates how university students manage smartphones throughout their lifecycle from purchase to disposal and how these decisions relate to environmental awareness and E-waste generation. The aim is to identify student patterns in device replacement, reuse, repair, recycling, and disposal, while also exploring the motivations, barriers, and levels of knowledge that shape sustainable or unsustainable behaviour. The results of the study will contribute to a better understanding of E-waste generation among young consumers and support the development of initiatives that promote responsible smartphone use, repair, and recycling. The project also highlights existing programmes related to E-waste and emphasises the significant role of the \gls{EU} in shaping legislation in this area.
 
-\section{Theoretical framework and literature review}
+\section{Theoretical framework of the E-waste problem}
 
 \subsection{E-waste}
 
-Directive 2012/19/EU of the European Parliament and of the Council of 4 July 2012 on waste electrical and electronic equipment (WEEE) \cite{eu_2012_weee_directive} in Article 3 of the directive defines E-waste as \textit{WEEE, in which W stands for waste and ‘electrical and electronic equipment’ or ‘EEE’ means equipment which is dependent on electric currents or electromagnetic fields in order to work properly and equipment for the generation, transfer and measurement of such currents and fields and designed for use with a voltage rating not exceeding 1 000 volts for alternating current and 1 500 volts for direct current}.  
+Directive 2012/19/EU of the European Parliament and of the Council of 4 July 2012 on \gls{WEEE} \cite{eu_2012_weee_directive} in Article 3 of the directive defines E-waste as \textit{WEEE, in which W stands for waste and ‘electrical and electronic equipment’ or ‘EEE’ means equipment which is dependent on electric currents or electromagnetic fields in order to work properly and equipment for the generation, transfer and measurement of such currents and fields and designed for use with a voltage rating not exceeding 1 000 volts for alternating current and 1 500 volts for direct current}.  
 
 
 \subsection{E-waste awareness}
 
+\subsection{Why is E-waste a problem?}
+
+\subsection{SDGs}
+
 \section{Survey}
 
-For this project, a survey titled \textit{Survey on the life cycle of smartphones and awareness of e-waste among students} was conducted. It was distributed among students of the Faculty of Computer and Information Science \gls{fri} and the Faculty of Mathematics and Physics \gls{fmf} at the University of Ljubljana via student-run Discord servers that all students at the faculties have access to.
+For this project, a survey titled \textit{Survey on the life cycle of smartphones and awareness of e-waste among students} was conducted. It was distributed among students of the \gls{fri} and the \gls{fmf} at the University of Ljubljana via student-run Discord servers that all students at the faculties have access to. 
 
-\subsection{Literature}
+\subsection{Related Work and Main Objectives}
 
 This survey was written based of information from the following 
 articles: \cite{springer2024circular}, 
@@ -85,48 +92,33 @@ articles: \cite{springer2024circular},
 \cite{Qiang2021}, 
 \cite{riisgaard2016local}, 
 \cite{romagnoli2022study}, 
-\cite{sage2022ewaste}, 
-\cite{plosone2021phone}.
+\cite{sage2022ewaste}.
 
+\noindent By examining these articles, it was decided that the main points the survey aimed to address included:
+\begin{itemize}
+\item determining the disposal method of an old mobile phone,
+\item identifying the main reasons for choosing a specific disposal method,
+\item assessing awareness of what E-waste is.
+\end{itemize}
 
+\noindent Additional points addressed by the survey included determining how many old mobile devices students have stored at home, what they believe motivates students to choose a particular disposal method, and what they think their faculty or university could do to address this issue more effectively.\\
+
+\noindent By reviewing the results of surveys presented in articles such as \cite{springer2017macroecon} (a study in Germany and China), \cite{sciencedirect2011} (a study in the UK), and \cite{cumj2025} (a study in Turkey), some initial expectations for the survey results could be formed. These expectations or hypotheses include:
+\begin{itemize}
+\item \textit{More than half of the students tend to keep their old mobile device at home.}
+\item \textit{This disposal (or in this case storage) method is chosen due to its convenience.}
+\item \textit{Students are aware of E-waste.}
+\end{itemize}
 
 \subsection{Survey Structure}
 
-The survey included 13 mandatory questions (14 for some participants) and 2 optional open-ended questions intended to gather students’ opinions on two topics. Most of the mandatory questions (11 out of 14) were single-answer multiple-choice questions. The remaining three were either short-answer questions or multiple-choice questions with several possible answers. \\ 
+The survey included 13 mandatory questions (14 for some participants) and 2 optional open-ended questions intended to gather students’ opinions on two topics. Most of the mandatory questions (11 out of 14) were single-answer multiple-choice questions. The remaining three were either short-answer questions or multiple-choice questions with several possible answers. All of the survey questions are available in the appendix. \\ 
 \\
 The survey was divided into three sections. The first focused on demographics, asking about age, gender, faculty of study, and level of study. The second section focused on students’ mobile phone purchasing and disposal practices. The final section focused on awareness of e-waste.
 
 \subsection{Data Collection}
 
 The survey was opened for admitting answers from 20. December 2025 and closed on 5. January 2026. In total 114 students from the 2 faculties submitted answers to the survey in this period. From these 68 students were from \gls{fmf}, 46 were from \gls{fri}. 
-
-\subsection{Questions}
-
-\subsubsection{Mandatory Questions}
-
-\begin{enumerate}
-    \item How old are you? \textit{(Short answer)}
-    \item What is your gender? \textit{(Multiple choice)}
-    \item Which faculty are you studying at? \textit{(Multiple choice)}
-    \item At what level of study are you currently? \textit{(Multiple choice)}
-    \item What brand of phone are you currently primarily using? \textit{(Multiple choice)}
-    \item What was the price of the phone from the previous question at the time of purchase? \textit{(Multiple choice)}
-    \item What year did you buy your current primary phone? \textit{(Multiple choice)}
-    \item When do you intend to replace your current primary phone? \textit{(Multiple choice)}
-    \item Why did you replace your previous phone? \textit{(Multiple choice)}
-    \item What did you do with your previous phone after the replacement? \textit{(Multiple choice)}
-    \item How many used phones do you currently have stored at home? \textit{(Multiple choice)}
-    \item Why did you choose this method of disposing of the used device? \textit{(Multiple choice — multiple answers allowed)}
-    \item Have you heard of waste electrical and electronic equipment (e-waste) before taking this survey? \textit{(Multiple choice)}
-    \item Which of the listed items, in your opinion, fall under e-waste? \textit{(Multiple choice — multiple answers allowed)}
-\end{enumerate}
-
-\subsubsection{Non-mandatory Questions}
-
-\begin{enumerate}[resume]
-    \item What do you think is the main reason that students do not throw old phones into e-waste collection points? \textit{(Open-ended)}
-    \item How do you think your faculty or university could contribute to improving knowledge about e-waste and the proper disposal of old phones? \textit{(Open-ended)}
-\end{enumerate}
 
 \subsection{Results}
 
@@ -163,7 +155,7 @@ The survey showed that 93 participants owned a phone from one of the following b
 \\
 A large majority of participants (93 students) stated that they plan to keep their current device until it becomes unusable.
 \\
-When analysing the reasons for replacing a previous mobile device, the survey revealed the following: a significant portion of participants felt the need to replace their phone due to the following reasons (with percentages indicating the share of the entire participant group who selected each as the most likely reason): \textit{Irreparable damage or damage that is too expensive to repair} (38\%), \textit{Slow performance / obsolescence} (27\%), \textit{Poor battery} (15\%), and \textit{I want a newer model} (4\%). 13\% of all participants who answered this question provided their own reason. Among these, the majority mentioned that their reason for replacement (in one way or another) included the following:
+When analysing the reasons for replacing a previous mobile device, the survey revealed the following: a significant portion of participants felt the need to replace their phone due to the following reasons (with percentages indicating the share of the entire participant group who selected each as the most likely reason): \textit{Irreparable damage or damage that is too expensive to repair} (38\%), \textit{Slow performance / obsolescence} (27\%), \textit{Poor battery} (15\%), and \textit{I want a newer model} (4\%). 13\% of all participants who answered this question provided their own reason. Among these, the majority mentioned that their reason for replacement (in one way or another) included either of the following:
 \begin{itemize}
 \item exchanging phones with parents (either parents giving the phone to the student or the student giving the phone to a parent),
 \item receiving a new phone as a gift or for free, which made the old phone unnecessary.
@@ -172,12 +164,13 @@ Other participants described various forms of physical damage, device obsolescen
 
 \subsubsection{How many phones are kept at home?}
 
-After an old mobile device is no longer in use, it has to be properly disposed of. Many such methods are available to students, yet a large proportion of them choose only one option. This survey aimed to uncover what this option is and what causes students to act in this way. \\
+After an old mobile device is no longer in use, it has to be properly disposed of. Many such methods are available to students, yet a large proportion of them choose only one option. The given hypothesis that this option is \textit{storing the device at home} was proved to be correct.
+% This survey aimed to uncover what this option is and what causes students to act in this way. \\
 \\
-From Figure \ref{hist:disposal method} it is shown that 86 students stated that they kept their previous device at home. These students were then asked how many old mobile devices they currently have at home. 64 students estimated having between 1 and 3 devices, 15 estimated between 4 and 6, and only 6 students estimated having more than 6 devices.
+From Figure \ref{hist:disposal method} it is shown that 86 students stated that they kept their previous device at home. These represent 74 \% of all the participants. These students were then asked how many old mobile devices they currently have at home. 64 students estimated having between 1 and 3 devices, 15 estimated between 4 and 6, and only 6 students estimated having more than 6 devices.
 Out of all the students, 14 stated that they gave their device to friends or family members. Even though many recycling points are available, only 2 students reported taking their phone there.\\
 \\
-An interesting point of investigation in this survey is why students choose one disposal method over another. The question \textit{“What did you do with your previous phone after the replacement? ”} attempted to determine exactly this. Students were able to select multiple answers and also provide their own. Figure \ref{hist:disposal reason} shows how their answers were distributed. Alongside comfort and convenience, all other possible reasons for keeping an old device at home were similarly common. Among the listed reasons, \textit{“Lack of suitable disposal sites in my area”} was chosen by the largest number of students (23 students). Under the \textit{Other} category, 22 students mostly stated that they keep these devices as backups, use them for other purposes, or are generally too lazy to dispose of the device properly at the time of replacement and later forget about it.
+An interesting point of investigation in this survey is why students choose one disposal method over another. The question \textit{“What did you do with your previous phone after the replacement? ”} attempted to determine exactly this. Students were able to select multiple answers and also provide their own. Figure \ref{hist:disposal reason} shows how their answers were distributed. Alongside the expected reason comfort and convenience, all other possible reasons for keeping an old device at home were similarly common. Among the listed reasons, \textit{“Lack of suitable disposal sites in my area”} was chosen by the largest number of students (23 students). Under the \textit{Other} category, 22 students mostly stated that they keep these devices as backups, use them for other purposes, or are generally too lazy to dispose of the device properly at the time of replacement and later forget about it.
 
 \begin{figure}[H]
 \includegraphics[width=15cm]{disposal_method_histogram.png}
@@ -225,13 +218,26 @@ It is also important to note that several students mentioned that they “get no
 
 \subsubsection{Discussion}
 
-After reviewing literature on the topic of E-waste awareness among students and how they dispose of their mobile devices some expectation around survey results were set. Following results to the study  \cite{springer2017macroecon} it was expected that most of the students will keep their old mobile device at home. This was confirmed by this survey with question 10 \textit{What did you do with your previous phone after the replacement?}. This result is not at all surpiring giving that students value comfort and convenience much more that environmental consciousness or finantial gain. What is truly troubling is that the procejt \textbf{E-cikliraj} (\cite{srip_ecikliraj_eodpadki}) was launched not that long ago and reachd over the whole country, yet some students claim they either lack awareness of such options or these options are not awailable in their imediate area. This poses a problem since locations of so-caled "street colection points" (ulični zbiralniki) are known and awailable oon the ZEOS website \cite{zeos_zbirna_mesta}.\\
+After reviewing the results of the survey, it is possible to state that all three of the proposed hypotheses were correct. It is important to note that no significant differences in phone disposal behaviour or E-waste awareness were observed between students from the two selected faculties. This outcome was expected due to the technical nature of both faculties. In both groups, the majority of students lacked knowledge about the available resources for old mobile phone disposal.
 \\
-No significant difference in phone disposal and E-waste awareness was observed between the students from the chosen faculties. This result was to be expected due to the technical nature of both faculties. From both faculties the majority of students lack the knowledge on the available resources for old mobile phone disposal.
+When comparing these key findings to other studies mentioned in \cite{springer2017macroecon}, we can see that the results largely align with those from other countries. Table \ref{tab:comparison} presents a comparison of the proportion of participants who reported using this disposal (or storage) method when asked what they do with an old mobile phone.
+
+\begin{table} [H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+Answer  & Slovenia & Germany & China\\
+\hline
+Store at home.  & 74\% & 73.3\% & 72.4\%\\
+\hline
+\end{tabular}
+\caption{The table shows the percentage of students who reported storing an old mobile phone at home. It illustrates the similarity of results across studies conducted in different countries among university students.}
+\label{tab:comparison}
+\end{table}
 
 \subsubsection{Limitations}
 
-Though this research provides interesting results and insights, several limitations exist. Firstly, the sample being limited to university students is a shortcoming of the study. An additional limitation is that all participants come from only two highly technical faculties. The survey section addressing E‑waste awareness was relatively brief, which restricts the depth of conclusions that can be drawn. Expanding this part of the research could help determine the underlying causes of the low level of knowledge about E‑waste disposal. Furthermore, extending the study to the entire university and comparing students from multiple fields of study could yield more diverse and representative results.
+Though this research provides interesting results and insights, several limitations exist. Firstly, the sample being limited to university students is a shortcoming of the study. An additional limitation is that all participants come from only two highly technical faculties. The survey section addressing E-waste awareness was relatively brief, which restricts the depth of conclusions that can be drawn. Expanding this part of the research could help determine the underlying causes of the low level of knowledge about E-waste disposal. Furthermore, extending the study to the entire university and comparing students from multiple fields of study could yield more diverse and representative results.
 
 \clearpage
 
@@ -271,29 +277,69 @@ of travelling just to drop off a phone for recycling.
 
 Recycling is one of the crucial steps in managing e-waste from mobile phones. Old phones contain a lot of rare
 earth materials that can be recycled and reused in the production of new devices. Recycling helps to reduce the need for mining new materials,
-which can positively impact the enviorment by reducing the need for mining new materials, which can have significant environmental impacts. 
+which can positively impact the environment by reducing the need for mining new materials, which can have significant environmental impacts. 
 We can also reuse other materials like glass, plastic and metal from phones that would otherwise seat in peoples drawers or end up in landfills.
 
-I checked how can Slovenian people put their old phones for recycling. There are several ways to do that. First of all, all of technology resellers
-are required by law to take back old phones for recycling. This includes big stores like BigBang, Merkur and others. There are also special collection points
-for e-waste in landfills and special collection points at some recycling islands. ZEOS a company owned by some slovenian distributers and stores is the company
-that arranges the apperance of those collection points and is responsible for e-waste managment in Slovenia.
+I checked how Slovenian people can put their old phones in a recycling bin. There are several ways to do this. First, all technology resellers
+are required by law to recycle old phones. This includes big stores like BigBang, Merkur and others. There are also special collection points
+for electronic waste in landfills and special collection points in some recycling islands. ZEOS a company owned by some Slovenian distributors and stores is the company
+that arranges the apperance of those collection points and is responsible for e-waste management in Slovenia.
 
 \section{Possible solutions to improve recycling rates}
 
-Convining people to recycle their old phones is not an easy task. There are several possible solutions that could help improve recycling rates among students.
+Convince people to recycle their old phones is not an easy task. There are several possible solutions that could help improve recycling rates among students. European union has already taken some important steps to help improve those rates and establish stable ground for circular economy. Improving recycling rates is important to reach quite a few sustainable development goals like climate action and responsible production and consumption.
+
+\subsection{European 2012 WEEE directive}
+
+European union has already began it's war against electronic waste with the 2012 european WEEE directive, which directs union countries on how to handle electronic waste, how to establish their collection points and how distributers and shops are responsible for handling electronic waste. It was one of most important steps \gls{EU} took to establish stable and reliable network of collection and recycling points. It also sets clear minimal goals for \gls{EU} member states on recycling and reuse of EEE to prevent as much waste to end up at landfills as possible. Requirement of special marking on electronic devices further alerts people to be careful when disposing of such item into bin, since it does not belong there.
 
 \subsection{Increased awareness campaigns}
-Of course one of the most imoportant steps is to make students aware of e-waste problem. From our survey it is possible to deduct that a lot of students are aware
-of e-waste problem, but there was a few that were not familiar with the term e-waste. Awareness campaigns could be run at universities and social media. There could
-also be worksops and lectures held on topic of e-waste and recycling.
+Of course, one of the most important steps is to make students aware of e-waste problem. From our survey, it is possible to deduce that many students are aware of the e-waste problem, but there were a few that were not familiar with the term e-waste. Awareness campaigns could be conducted at universities and on social networks. There could also be workshops and lectures held on topic of e-waste and recycling. There should also be some notice on dangers of keeping older devices at home. Unproper storage and handling of older devices could result in battery leakage, household damage or even fire if battery or any other component is disturbet into unstable position.
 
 \subsection{Improved accessibility to recycling points}
-Another possible solution is to improve accessibility to recycling points. This could be done by increasing the number of collection points at universities and other public places.
-There could also be special recycling bins placed at dorm
+Another possible solution is to improve accessibility to recycling points. This could be done by increasing the number of collection points at universities and other public places. Directive for WEEE already burdens countries to install municipal collection points \cite{eu_2012_weee_directive}, but as seen from the survey these collection points can appear to be far away for some students. Most of Slovenian municipals already installed multiple collection points across their towns, and added them to a map on ZEOS website \cite{zeos_zbirna_mesta} for people to look at. Most people also are not aware that all Slovenian and European sellers of electronic devices are required by law to collect your old devices that are decommissioned. These shops should have a sticker on them that say "COLLECTION POINT" or something similar to inform more people that WEEE can be left there and are sometimes actively trying to hide it. 
+
+\subsection{Financial or other incentives for recycling old devices}
+One idea that keeps people in question are financial incentives for recycling \gls{EoL} devices. This would mean giving students some type of financial push that would encourage them to bring their old devices in return for some discounts at shops. A research paper from 2019 gave a great example of a bonus card system that would give students bonus points that would accumulate over multiple recycled devices. These points could than be used as a discount for a new device or to buy something completely different \cite{mdpiEconomicInsentive}.
+
+
 
 \clearpage
 
 \printbibliography
+
+\clearpage 
+\appendix 
+\addcontentsline{toc}{section}{Appendices} 
+
+\section{Survey Questions}
+
+\subsection{Mandatory Questions}
+
+\begin{enumerate}
+    \item How old are you? \textit{(Short answer)}
+    \item What is your gender? \textit{(Multiple choice)}
+    \item Which faculty are you studying at? \textit{(Multiple choice)}
+    \item At what level of study are you currently? \textit{(Multiple choice)}
+    \item What brand of phone are you currently primarily using? \textit{(Multiple choice)}
+    \item What was the price of the phone from the previous question at the time of purchase? \textit{(Multiple choice)}
+    \item What year did you buy your current primary phone? \textit{(Multiple choice)}
+    \item When do you intend to replace your current primary phone? \textit{(Multiple choice)}
+    \item Why did you replace your previous phone? \textit{(Multiple choice)}
+    \item What did you do with your previous phone after the replacement? \textit{(Multiple choice)}
+    \item How many used phones do you currently have stored at home? \textit{(Multiple choice)}
+    \item Why did you choose this method of disposing of the used device? \textit{(Multiple choice — multiple answers allowed)}
+    \item Have you heard of waste electrical and electronic equipment (e-waste) before taking this survey? \textit{(Multiple choice)}
+    \item Which of the listed items, in your opinion, fall under e-waste? \textit{(Multiple choice — multiple answers allowed)}
+\end{enumerate}
+
+\subsection{Non-mandatory Questions}
+
+\begin{enumerate}[resume]
+    \item What do you think is the main reason that students do not throw old phones into e-waste collection points? \textit{(Open-ended)}
+    \item How do you think your faculty or university could contribute to improving knowledge about e-waste and the proper disposal of old phones? \textit{(Open-ended)}
+\end{enumerate}
+
+
 
 \end{document}
